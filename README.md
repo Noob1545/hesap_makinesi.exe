@@ -4,7 +4,7 @@ o zaman hadi bu dosyayı nasıl yaptığıma bir bakalım.
 
 # ilk önce python kodlarımızı yazabilmemiz için Python adlı uygulamamızı indiriyoruz, uygulamayı ise şu adrese giderek indirebilirsiniz: https://www.python.org/downloads/
 
-eveet uygulamamızı indirdikten sonra kurulum işlemini başlatıyoruz, sonrada .py adında bir uzantılı bir dosya oluşturmamız gerekiyor, örneğin, hesap_makinesi.py yapabilirsiniz ama unutmayın python kodlarımızı yazabilmek için uzantısının .py olması önemlidir!
+eveet uygulamamızı indirdikten sonra kurulum işlemini başlatıyoruz, sonrada bir klasör oluşturup klasörün içine  .py adında bir uzantılı bir dosya oluşturmamız gerekiyor, örneğin, hesap_makinesi.py yapabilirsiniz ama unutmayın python kodlarımızı yazabilmek için uzantısının .py olması önemlidir!
 
 sonrada bu dosyayı bir code editöründen yada direkt metin belgesindende açabilirsiniz,
 
@@ -72,3 +72,9 @@ kütüphane indirme kodunu terminale yazınız:
 ```js
 npm install pyinstaller
 ```
+şimdi asıl olayımıza gelelim python dosyasını exe dosyasına dönüştüreceğiz bunun için ise terminale şu kodu yazın:
+
+```js
+pyinstaller --onefile "uygulama ismi".py
+```
+bu kodu yazdıktan sonra klasörünüzün içinde 3 tane dosya oluşturulur ama bu dosyalar gizli olarak oluşturulduğu için siz göremessiniz, ancak bunu dosya yöneticinizden gizli dosyaları göster ayarını açarak görebilirsiniz. gizli öğreleri açtığınız zaman 3 tane dosya göreceksiniz. o dosyalardan dist klasöürünün içine girin ve... tadaaa artık exe dosyanızın orda olması gerekiyor açtığınız zamansa hesap makinesi işlemi başlayacaktır. benim metnimi okduğunuz için teşekkür ederim, ir sonraki yazıda görümek üzere!
