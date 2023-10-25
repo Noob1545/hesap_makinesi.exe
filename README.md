@@ -64,4 +64,11 @@ def anaislem():
 
 print(anaislem())
 ```
+evet bu kodu python dosyamıza yazdığımıza göre artık exe dosyasına çevirmeye başlayalım.
 
+# bir python dosyasını exe dosyasına çevirebilmek için bir kütüphane indirmemiz gerek.
+kütüphane indirme kodunu terminale yazınız:
+
+```js
+npm install pyinstaller
+```
